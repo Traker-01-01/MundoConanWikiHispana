@@ -38,6 +38,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "caso-page" }
       - { label: "Título del Caso", name: "title", widget: "string" }
       - { label: "Fecha del Caso", name: "fecha", widget: "datetime" }
       - { label: "Descripción", name: "descripcion", widget: "text" }
@@ -54,6 +55,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "personaje-page" }
       - { label: "Nombre", name: "title", widget: "string" }
       - { label: "Alias", name: "alias", widget: "string", required: false }
       - { label: "Edad", name: "edad", widget: "string", required: false }
@@ -69,6 +71,7 @@ collections:
     create: true
     slug: "episodio-{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "episodio-page" }
       - { label: "Número de Episodio", name: "numero", widget: "number" }
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Fecha de emisión", name: "fecha", widget: "datetime" }
@@ -84,6 +87,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "teoria-page" }
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Autor o Usuario", name: "autor", widget: "string" }
       - { label: "Fecha", name: "fecha", widget: "datetime" }
@@ -97,6 +101,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "organizacion-page" }
       - { label: "Nombre", name: "title", widget: "string" }
       - { label: "Descripción", name: "descripcion", widget: "text" }
       - { label: "Miembros conocidos", name: "miembros", widget: "list" }
@@ -110,6 +115,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "lugar-page" }
       - { label: "Nombre", name: "title", widget: "string" }
       - { label: "Tipo de Lugar", name: "tipo", widget: "string" }
       - { label: "Descripción", name: "descripcion", widget: "text" }
